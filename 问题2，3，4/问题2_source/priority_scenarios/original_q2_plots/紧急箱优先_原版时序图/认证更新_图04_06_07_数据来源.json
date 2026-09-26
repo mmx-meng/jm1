@@ -1,0 +1,38 @@
+{
+  "方案来源": "/workspace/scratch/3599305db02c/work/Time_Priority_Q2_Q3_Q4/q2_source/priority_scenarios/全局认证_集成列池CP_候选019",
+  "方法归属": "集成列池精确重组，随后固定路线集合精确时序优化；不属于NSGA-II自身搜索结果",
+  "认证范围": "源JSON中OPTIMAL仅适用于该固定路线集合的时序优化，未据此宣称原问题全局最优",
+  "绘图风格": "延续v6九面板资源图及三面板哑铃图，RdYlBu_r连续渐变；不使用热图",
+  "指标": {
+    "归一化加权延误": 0.0,
+    "完工秒": 7549,
+    "能耗kWh": 62.83939266082216,
+    "架次数": 21,
+    "逐箱数": 80,
+    "硬时限箱数": 31,
+    "最小硬时限余量秒": 437.0,
+    "最低返航SOC百分比": 20.605337235596988
+  },
+  "输入文件": [
+    {
+      "文件": "/workspace/scratch/3599305db02c/work/Time_Priority_Q2_Q3_Q4/q2_source/priority_scenarios/全局认证_集成列池CP_候选019.json",
+      "SHA256": "c17003c2be1c083c9fe0868dea32eaefef1f26d1f4335b05909c654b67b042d0"
+    },
+    {
+      "文件": "/workspace/scratch/3599305db02c/work/Time_Priority_Q2_Q3_Q4/q2_source/priority_scenarios/全局认证_集成列池CP_候选019_架次.csv",
+      "SHA256": "e41678202c15b9660ae49ecfb71ea1e75c936846b35f488e52d613ff4cc7c6f2"
+    },
+    {
+      "文件": "/workspace/scratch/3599305db02c/work/Time_Priority_Q2_Q3_Q4/q2_source/priority_scenarios/全局认证_集成列池CP_候选019_航段.csv",
+      "SHA256": "93cd9c4f16b90db9b15fb1cfa0789a4131e047dc9fe503c89188147a1f8ec153"
+    },
+    {
+      "文件": "/workspace/scratch/3599305db02c/work/Time_Priority_Q2_Q3_Q4/q2_source/priority_scenarios/全局认证_集成列池CP_候选019_逐箱.csv",
+      "SHA256": "37af23cd5dbfa4ae1a316b533f7216d151c80742420b117569117b0e76fa0511"
+    }
+  ],
+  "资源占用口径": "无人机[开始,返回)，电池[开始,充满)，相同时刻释放与占用合并；电池占用包含任务与充电",
+  "累计交付口径": "全部、首批、医疗为包含或交叉集合，不相加；每箱在交接完成时计入",
+  "区间口径": "服务区首箱至末箱、硬时限最小至最大余量均为真实区间，不是置信区间",
+  "图06排序": "按返航SOC升序，架次编号次序打破并列；能耗由水平飞行与爬升附加组成"
+}

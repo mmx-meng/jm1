@@ -1,0 +1,34 @@
+{
+  "source_prefix": "/workspace/scratch/3599305db02c/work/Time_Priority_Q2_Q3_Q4/q2_source/全局认证_冻结最终十九架次",
+  "sorties": 19,
+  "boxes": 80,
+  "energy_kwh": 61.93992366496702,
+  "all_return_s": 7319,
+  "multi_sorties": [
+    "R07",
+    "R08",
+    "R11",
+    "R16"
+  ],
+  "waves": [
+    [
+      0,
+      2400
+    ],
+    [
+      2400,
+      4800
+    ],
+    [
+      4800,
+      7200
+    ]
+  ],
+  "wave_box_counts": [
+    29,
+    30,
+    21
+  ],
+  "dem": "q1_flat/最终工作DEM.tif",
+  "style": "沿用v6九面板、同一RdYlBu_r渐变；地图无热力矩阵；实际节点间直线"
+}

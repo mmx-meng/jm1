@@ -1,0 +1,33 @@
+{
+  "source_prefix": "/workspace/scratch/3599305db02c/work/Time_Priority_Q2_Q3_Q4/q2_source/priority_scenarios/全局认证_集成列池CP_候选019",
+  "sorties": 21,
+  "boxes": 80,
+  "energy_kwh": 62.83939266082216,
+  "all_return_s": 7549,
+  "multi_sorties": [
+    "R07",
+    "R14",
+    "R18"
+  ],
+  "waves": [
+    [
+      0,
+      2400
+    ],
+    [
+      2400,
+      4800
+    ],
+    [
+      4800,
+      7200
+    ]
+  ],
+  "wave_box_counts": [
+    27,
+    30,
+    23
+  ],
+  "dem": "q1_flat/最终工作DEM.tif",
+  "style": "沿用v6九面板、同一RdYlBu_r渐变；地图无热力矩阵；实际节点间直线"
+}

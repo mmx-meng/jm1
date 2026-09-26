@@ -1,0 +1,103 @@
+{
+  "status": "通过",
+  "verification_basis": "重新读取三张原始Excel及最终工作DEM，重算所有节点航段与物理能耗；不读取求解缓存",
+  "verified_sorties": 21,
+  "verified_boxes": 80,
+  "verified_legs": 46,
+  "unique_box_coverage": true,
+  "mass_kg": 758.0,
+  "volume_m3": 2.0109999999999997,
+  "energy_kwh": 63.8021014493842,
+  "weighted_lateness": 0.0,
+  "all_expected_deadlines_met": true,
+  "hard_box_count": 31,
+  "all_hard_deadlines_met": true,
+  "min_hard_slack_s": 406.0,
+  "last_delivery_s": 6944,
+  "all_return_s": 7411,
+  "min_SOC_percent": 20.605337235596988,
+  "no_UAV_overlap": true,
+  "no_battery_overlap": true,
+  "battery_full_before_reuse": true,
+  "resources": [
+    {
+      "资源": "无人机",
+      "机型": "A",
+      "峰值": 4,
+      "库存": 4
+    },
+    {
+      "资源": "无人机",
+      "机型": "B",
+      "峰值": 2,
+      "库存": 2
+    },
+    {
+      "资源": "无人机",
+      "机型": "C",
+      "峰值": 2,
+      "库存": 2
+    },
+    {
+      "资源": "电池",
+      "机型": "A",
+      "峰值": 6,
+      "库存": 6
+    },
+    {
+      "资源": "电池",
+      "机型": "B",
+      "峰值": 4,
+      "库存": 4
+    },
+    {
+      "资源": "电池",
+      "机型": "C",
+      "峰值": 4,
+      "库存": 4
+    }
+  ],
+  "sorties_by_type": {
+    "A": 6,
+    "B": 8,
+    "C": 7
+  },
+  "objective_order": [
+    "加权延误",
+    "全部返航秒",
+    "总能耗kWh",
+    "架次数"
+  ],
+  "original_objectives": [
+    0.0,
+    7582,
+    66.88893290579065,
+    22
+  ],
+  "candidate_objectives": [
+    0.0,
+    7411,
+    63.8021014493842,
+    21
+  ],
+  "strict_dominance_of_original": true,
+  "time_reduction_s": 171,
+  "energy_reduction_kwh": 3.0868314564064505,
+  "energy_reduction_percent": 4.6148612667421105,
+  "global_conclusion": "该可行改进方案严格支配原推荐解，因此原推荐解不是完整问题的全局Pareto最优；不据此声称改进方案全局最优",
+  "fixed_route_proof_scope": "原路线结构下7582秒最优的下界证明保持成立；更换路线后该下界不再适用",
+  "previous_improved_objectives": [
+    0.0,
+    7559,
+    65.4276437615,
+    22
+  ],
+  "strict_dominance_of_previous_improved": true,
+  "candidate_file_sha256": {
+    "全局认证_集成列池CP_候选007.json": "ee409af1f4aed8bd56e1db7419fd7e8ff0b901bcd4cbc78a0494ed230cbc6053",
+    "全局认证_集成列池CP_候选007_架次.csv": "bfe79e9ad5b7d8bb3e855ac1e8819eab6ad83bcea5c7f7ad00f076d7e4ed88ca",
+    "全局认证_集成列池CP_候选007_逐箱.csv": "8e99795019f5424b8fde22f70ffb775af346597e3054d408a049416fcf8a4739",
+    "全局认证_集成列池CP_候选007_航段.csv": "8beb9bd056e9c57effed5daa4a27821790424f4d91572558d0489a8cc6e708ef"
+  },
+  "candidate_frozen_id": "优先级方案007"
+}

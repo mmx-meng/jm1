@@ -1,0 +1,24 @@
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+/root/.local/lib/python3.12/site-packages/jupyter_client/localinterfaces.py:58: UserWarning: Unexpected error discovering local network interfaces: [Errno 1] Operation not permitted
+  ret = f(**kwargs)
+status
+Jupyter 单元 4/15 开始
+Jupyter 单元 4 完成（计数 1；输出 1 条）
+Jupyter 单元 6/15 开始
+Jupyter 单元 6 完成（计数 2；输出 3 条）
+Jupyter 单元 7/15 开始
+Jupyter 单元 7 完成（计数 3；输出 17 条）
+Jupyter 单元 9/15 开始
+Jupyter 单元 9 完成（计数 4；输出 1 条）
+Jupyter 单元 10/15 开始
+Jupyter 单元 10 完成（计数 5；输出 15 条）
+Jupyter 单元 12/15 开始
+Jupyter 单元 12 完成（计数 6；输出 3 条）
+Jupyter 单元 13/15 开始
+Jupyter 单元 13 完成（计数 7；输出 17 条）
+Jupyter 单元 15/15 开始
+Jupyter 单元 15 完成（计数 8；输出 1 条）
+全部 Jupyter 单元已成功执行；19张图 SHA256 已保存

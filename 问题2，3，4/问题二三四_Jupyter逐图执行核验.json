@@ -1,0 +1,242 @@
+{
+  "status": "PASS",
+  "kernel": "ipykernel.inprocess（真实Jupyter内核，禁止本地端口环境）",
+  "executed_utc": "2026-09-24T04:21:00.749003+00:00",
+  "duration_s": 175.19,
+  "code_cells": [
+    {
+      "source": "from pathlib import Path",
+      "execution_count": 1,
+      "outputs": 1,
+      "has_error": false
+    },
+    {
+      "source": "run('q2_source/time_priority_3d/solve_q2_fast22.py')",
+      "execution_count": 2,
+      "outputs": 3,
+      "has_error": false
+    },
+    {
+      "source": "run('q2_source/time_priority_3d/plot_q2_original_terrain_3d.py')",
+      "execution_count": 3,
+      "outputs": 17,
+      "has_error": false
+    },
+    {
+      "source": "run('q3_source/问题三_V3_结果核验.py','--prefix','问题三_时间主方案')",
+      "execution_count": 4,
+      "outputs": 1,
+      "has_error": false
+    },
+    {
+      "source": "run('q3_source/问题三_V4_统计绘图.py', '--prefix','问题三_时间主方案',",
+      "execution_count": 5,
+      "outputs": 15,
+      "has_error": false
+    },
+    {
+      "source": "run('q4_updated/compute_q4.py','--source',ROOT/'q3_source',",
+      "execution_count": 6,
+      "outputs": 3,
+      "has_error": false
+    },
+    {
+      "source": "for script in ('plot_q4_no_singletons_maps.py','plot_q4_no_singletons_answer.py',",
+      "execution_count": 7,
+      "outputs": 17,
+      "has_error": false
+    },
+    {
+      "source": "figure_hashes = {}",
+      "execution_count": 8,
+      "outputs": 1,
+      "has_error": false
+    }
+  ],
+  "commands": [
+    {
+      "script": "q2_source/time_priority_3d/solve_q2_fast22.py",
+      "returncode": 0
+    },
+    {
+      "script": "q2_source/time_priority_3d/问题二_真正时间优先_原始DEM独立核验.py",
+      "returncode": 0
+    },
+    {
+      "script": "q2_source/priority_scenarios/复核分情景选解.py",
+      "returncode": 0
+    },
+    {
+      "script": "q2_source/time_priority_3d/plot_q2_original_terrain_3d.py",
+      "returncode": 0
+    },
+    {
+      "script": "q2_source/priority_scenarios/original_q2_plots/认证更新_调度装载交付.py",
+      "returncode": 0
+    },
+    {
+      "script": "plot_time_decisions.py",
+      "returncode": 0
+    },
+    {
+      "script": "q3_source/问题三_V3_结果核验.py",
+      "returncode": 0
+    },
+    {
+      "script": "q3_source/问题三_V4_统计绘图.py",
+      "returncode": 0
+    },
+    {
+      "script": "q3_source/问题三_V7_六面板三维山地航线.py",
+      "returncode": 0
+    },
+    {
+      "script": "q3_source/问题三_V4_地图绘图.py",
+      "returncode": 0
+    },
+    {
+      "script": "q4_updated/compute_q4.py",
+      "returncode": 0
+    },
+    {
+      "script": "q4_updated/compute_q4_spatial.py",
+      "returncode": 0
+    },
+    {
+      "script": "q4_updated/compute_q4_no_singletons.py",
+      "returncode": 0
+    },
+    {
+      "script": "q4_updated/plot_q4_no_singletons_maps.py",
+      "returncode": 0
+    },
+    {
+      "script": "q4_updated/plot_q4_no_singletons_answer.py",
+      "returncode": 0
+    },
+    {
+      "script": "q4_updated/plot_q4_no_singletons_hex.py",
+      "returncode": 0
+    },
+    {
+      "script": "q4_updated/plot_q4_no_singletons_ellipses.py",
+      "returncode": 0
+    },
+    {
+      "script": "q4_updated/plot_q4_no_singletons_timeline.py",
+      "returncode": 0
+    }
+  ],
+  "figures": {
+    "问题二": [
+      {
+        "path": "q2_source/time_priority_3d/问题二_原版视角三维_19与22架次_航线机型.png",
+        "sha256": "8e9c801e6fb4a55c4ae3abce43fac3c33b5150f2a081c1dd6912fc7e1db0c5c1",
+        "bytes": 3549671
+      },
+      {
+        "path": "q2_source/time_priority_3d/问题二_原版视角三维_19与22架次_三时段.png",
+        "sha256": "bddef0afae0db29f20609c0933ecf4bdb5e44a3fa5196fcb09f91a84588e32b6",
+        "bytes": 3493947
+      },
+      {
+        "path": "figures/时效图05_问题二原色带_真实时间缩短对比.png",
+        "sha256": "b9731c8736d5ab8488ca34789695cd350e69542a9caa820c512ddbf49b4fdddc",
+        "bytes": 446635
+      },
+      {
+        "path": "figures/时效图01_问题二_逐箱硬余量及返航.png",
+        "sha256": "648f76a26249fbd701b7dfdb1c998a4069361fdf8f72c5171f0d36a2dd77eb3a",
+        "bytes": 369286
+      },
+      {
+        "path": "q2_source/time_priority_3d/原版问题二_22架次时序图/认证更新_图04_联合调度与资源峰值.png",
+        "sha256": "dffc65ddcfb19e1416db915365ee27998e3b59b50ebe12849911b3e9355c3630",
+        "bytes": 677966
+      },
+      {
+        "path": "q2_source/time_priority_3d/原版问题二_22架次时序图/认证更新_图06_装载能耗与返航余量.png",
+        "sha256": "c41506f5838067f7e7dc3ce27df03dbd68839f3fcfea270db66e66dd9fcb8666",
+        "bytes": 420563
+      },
+      {
+        "path": "q2_source/time_priority_3d/原版问题二_22架次时序图/认证更新_图07_交付进度与时限保障.png",
+        "sha256": "efac8804aecf6edb86f068e889a8adc5f1ed0e12009c64370ad5612190287344",
+        "bytes": 319734
+      }
+    ],
+    "问题三": [
+      {
+        "path": "figures/问题三_时间主方案_三维_图03_六面板三维山地航线.png",
+        "sha256": "bb1145b6514b4fd41e1993a2800523ce832227630c82cb8dc2d9e0f2bc8c324f",
+        "bytes": 3724934
+      },
+      {
+        "path": "figures/问题三_时间主方案_地图_图01_九面板通信空间图.png",
+        "sha256": "09a37848bb57c09f91eb68afbbbf4f3a398bab37b8aaf1095aeb68a5dd82dbbd",
+        "bytes": 4203483
+      },
+      {
+        "path": "figures/时效图02_问题三_逐箱硬余量及返航.png",
+        "sha256": "f23d2704f94f7ee7015bd4910efade2c5e0ce7dab7e7f59b9c0ea7eb555ae736",
+        "bytes": 405348
+      },
+      {
+        "path": "figures/时效图03_问题三候选_5百分比容许差.png",
+        "sha256": "aed1a8012e58aac8f566e61f3bdb52691d649a0a5c636f3eb626c60dc1abcfa9",
+        "bytes": 207857
+      },
+      {
+        "path": "figures/问题三_时间主方案_图02_运输与中继联合资源时序.png",
+        "sha256": "d72949e364218ff79c599c1ffe8d588a9f4a4eb9ae8aa20a163da02f8e44c38f",
+        "bytes": 578774
+      },
+      {
+        "path": "figures/问题三_时间主方案_图07_逐箱交付与资源核验.png",
+        "sha256": "ec52e6b4bac37875e9c01ef10d6eaaf1b3aad636f13425fc311b046c7876f9b6",
+        "bytes": 981868
+      }
+    ],
+    "问题四": [
+      {
+        "path": "q4_updated/no_singletons/figures/问题四_图01_原色带DEM_两组三组分区.png",
+        "sha256": "3ade9c3aca7dc073a8fcec61b6ad795c0891232fcb7e5a002e5d7facdbe0da65",
+        "bytes": 2754245
+      },
+      {
+        "path": "q4_updated/no_singletons/figures/问题四_图02_原视角三维地形与固定航线.png",
+        "sha256": "b339adcd9e88958d227acf59c362b229d529896e52e74845d11d960fe61f692d",
+        "bytes": 4086811
+      },
+      {
+        "path": "q4_updated/no_singletons/figures/问题四_图03_原版三维地形与八类资源缺口.png",
+        "sha256": "653f28a6687ea3cb378ed7dbefe4cbc389e6923728dd8e4046f49b7151d0d7e9",
+        "bytes": 1620295
+      },
+      {
+        "path": "q4_updated/no_singletons/figures/问题四_图04_原配色DEM飞行时间与分组蜂巢图.png",
+        "sha256": "1e3b8e18d3a10a9cced21ac74c666d5ac4379dd4e6237aff8e2313f3b986c755",
+        "bytes": 1953835
+      },
+      {
+        "path": "q4_updated/no_singletons/figures/问题四_图05_原DEM分组空间椭圆.png",
+        "sha256": "e17b8f325059d845927c94458d9d2468a42424d4ca0f216267b817fc76935b3e",
+        "bytes": 1142621
+      },
+      {
+        "path": "q4_updated/no_singletons/figures/问题四_图06_原版时序资源峰值.png",
+        "sha256": "43dc84a09af06c643d550ee77d30c5c7fbbbdbbfbdd6cb66f2f9ab24ddf8ebc7",
+        "bytes": 200075
+      }
+    ]
+  },
+  "verified_metrics": {
+    "Q2_19_last_delivery_s": 6803,
+    "Q2_22_last_delivery_s": 6227,
+    "Q2_19_return_s": 7319,
+    "Q2_22_return_s": 6899,
+    "Q3_22_plus_4_last_delivery_s": 6227,
+    "Q3_22_plus_4_joint_return_s": 6936,
+    "Q4_grouping_changes_transport_delivery": false
+  }
+}

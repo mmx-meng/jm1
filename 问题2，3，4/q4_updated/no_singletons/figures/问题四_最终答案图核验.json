@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "source": "fixed_revised_Q3_original_DEM",
+  "figure_type": "two_original_3d_terrain_maps_and_two_stacked_resource_bar_charts",
+  "scenario_audit": {
+    "R2_不设单站组": {
+      "transport_flights": 22,
+      "relay_flights": 4,
+      "site_groups": {
+        "G1": 8,
+        "G2": 7
+      },
+      "resource_total": 35,
+      "shortage": 5,
+      "stock": {
+        "transport_drone_A": 4,
+        "transport_drone_B": 2,
+        "transport_drone_C": 2,
+        "transport_battery_A": 6,
+        "transport_battery_B": 4,
+        "transport_battery_C": 4,
+        "relay_drone_R": 2,
+        "relay_component_R": 6
+      }
+    },
+    "R3_不设单站组": {
+      "transport_flights": 22,
+      "relay_flights": 4,
+      "site_groups": {
+        "G1": 4,
+        "G2": 6,
+        "G3": 5
+      },
+      "resource_total": 39,
+      "shortage": 9,
+      "stock": {
+        "transport_drone_A": 4,
+        "transport_drone_B": 2,
+        "transport_drone_C": 2,
+        "transport_battery_A": 6,
+        "transport_battery_B": 4,
+        "transport_battery_C": 4,
+        "relay_drone_R": 2,
+        "relay_component_R": 6
+      }
+    }
+  },
+  "size_px": [
+    4494,
+    3324
+  ],
+  "png": "问题四_图03_原版三维地形与八类资源缺口.png",
+  "pdf": "问题四_图03_原版三维地形与八类资源缺口.pdf",
+  "sha256_png": "653f28a6687ea3cb378ed7dbefe4cbc389e6923728dd8e4046f49b7151d0d7e9"
+}

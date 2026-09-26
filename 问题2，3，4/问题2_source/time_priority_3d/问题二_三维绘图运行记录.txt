@@ -1,0 +1,3 @@
+问题二_原版视角三维_19与22架次_航线机型.png
+问题二_原版视角三维_19与22架次_三时段.png
+{"status": "PASS", "figures": 2, "old": {"sorties": 19, "last_delivery_s": 6803, "last_return_s": 7319}, "fast": {"sorties": 22, "last_delivery_s": 6227, "last_return_s": 6899}}

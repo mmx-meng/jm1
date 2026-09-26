@@ -1,0 +1,103 @@
+{
+  "status": "通过",
+  "verification_basis": "重新读取三张原始Excel及最终工作DEM，重算所有节点航段与物理能耗；不读取求解缓存",
+  "verified_sorties": 22,
+  "verified_boxes": 80,
+  "verified_legs": 49,
+  "unique_box_coverage": true,
+  "mass_kg": 758.0,
+  "volume_m3": 2.0109999999999997,
+  "energy_kwh": 63.54158526319967,
+  "weighted_lateness": 0.0,
+  "all_expected_deadlines_met": true,
+  "hard_box_count": 31,
+  "all_hard_deadlines_met": true,
+  "min_hard_slack_s": 230.0,
+  "last_delivery_s": 6227,
+  "all_return_s": 6899,
+  "min_SOC_percent": 20.237385821866926,
+  "no_UAV_overlap": true,
+  "no_battery_overlap": true,
+  "battery_full_before_reuse": true,
+  "resources": [
+    {
+      "资源": "无人机",
+      "机型": "A",
+      "峰值": 4,
+      "库存": 4
+    },
+    {
+      "资源": "无人机",
+      "机型": "B",
+      "峰值": 2,
+      "库存": 2
+    },
+    {
+      "资源": "无人机",
+      "机型": "C",
+      "峰值": 2,
+      "库存": 2
+    },
+    {
+      "资源": "电池",
+      "机型": "A",
+      "峰值": 6,
+      "库存": 6
+    },
+    {
+      "资源": "电池",
+      "机型": "B",
+      "峰值": 4,
+      "库存": 4
+    },
+    {
+      "资源": "电池",
+      "机型": "C",
+      "峰值": 4,
+      "库存": 4
+    }
+  ],
+  "sorties_by_type": {
+    "A": 9,
+    "B": 7,
+    "C": 6
+  },
+  "objective_order": [
+    "加权延误",
+    "全部返航秒",
+    "总能耗kWh",
+    "架次数"
+  ],
+  "original_objectives": [
+    0.0,
+    7582,
+    66.88893290579065,
+    22
+  ],
+  "candidate_objectives": [
+    0.0,
+    6899,
+    63.54158526319967,
+    22
+  ],
+  "strict_dominance_of_original": true,
+  "time_reduction_s": 683,
+  "energy_reduction_kwh": 3.3473476425909823,
+  "energy_reduction_percent": 5.004337036300962,
+  "global_conclusion": "该可行改进方案严格支配原推荐解，因此原推荐解不是完整问题的全局Pareto最优；不据此声称改进方案全局最优",
+  "fixed_route_proof_scope": "当前22条路线、固定实体分配和时序顺序下，固定路线CP-SAT经四阶段求得最优；不宣称完整问题全局最优",
+  "previous_improved_objectives": [
+    0.0,
+    7559,
+    65.4276437615,
+    22
+  ],
+  "strict_dominance_of_previous_improved": true,
+  "candidate_file_sha256": {
+    "问题二_真正时间优先_22架次.json": "2f3457efeed2735b7bc100ec819e00f009d1418c4ce12a7a9cdcad86d9a5f1c9",
+    "问题二_真正时间优先_22架次_架次.csv": "1a698802772248ad2e32a277a76490dbe4a24590bb3d2eeecb77c747fcf9f029",
+    "问题二_真正时间优先_22架次_逐箱.csv": "fab07de2149077786dc0b7df1f18b34dddf2c61be0f123308e868e51a6f11227",
+    "问题二_真正时间优先_22架次_航段.csv": "0383b4d90449a49827998ba58570d7fbd1495b863f21312c3aed0f545152d2b5"
+  },
+  "candidate_frozen_id": "Q2_22_TIME_RETIMED"
+}

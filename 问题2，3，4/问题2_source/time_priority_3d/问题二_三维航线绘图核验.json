@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "case_19": {
+    "sorties": 19,
+    "last_delivery_s": 6803,
+    "last_return_s": 7319
+  },
+  "case_22": {
+    "sorties": 22,
+    "last_delivery_s": 6227,
+    "last_return_s": 6899
+  },
+  "dem_sha256": "02f3581304f2e52deaff44563d69d1b8f7ccfc9aedbb4886bc71eb50fee48c6d",
+  "camera": "问题三V7原始elev=44,azim=-62，正投影",
+  "terrain": "同一修正DEM、同一RdYlBu_r色带，地形海拔真实米值",
+  "vertical_display_exaggeration": 3.5,
+  "height_data_altered": false,
+  "model_panels": [
+    {
+      "panel": "a",
+      "title": "19架次 · 原方案",
+      "drawn_phases": 132,
+      "source_routes": 19
+    },
+    {
+      "panel": "b",
+      "title": "22架次 · 时间优先",
+      "drawn_phases": 147,
+      "source_routes": 22
+    },
+    {
+      "panel": "c",
+      "title": "22架次 · A型运输",
+      "drawn_phases": 60,
+      "source_routes": 9
+    },
+    {
+      "panel": "d",
+      "title": "22架次 · B型运输",
+      "drawn_phases": 42,
+      "source_routes": 7
+    },
+    {
+      "panel": "e",
+      "title": "22架次 · C型运输",
+      "drawn_phases": 45,
+      "source_routes": 6
+    },
+    {
+      "panel": "f",
+      "title": "22架次 · 首小时",
+      "drawn_phases": 98,
+      "source_routes": 17
+    }
+  ],
+  "period_panels": [
+    {
+      "panel": "a",
+      "title": "19架次 · 0—40分",
+      "drawn_phases": 66,
+      "source_routes": 12
+    },
+    {
+      "panel": "b",
+      "title": "22架次 · 0—40分",
+      "drawn_phases": 61,
+      "source_routes": 13
+    },
+    {
+      "panel": "c",
+      "title": "19架次 · 40—80分",
+      "drawn_phases": 39,
+      "source_routes": 10
+    },
+    {
+      "panel": "d",
+      "title": "22架次 · 40—80分",
+      "drawn_phases": 62,
+      "source_routes": 12
+    },
+    {
+      "panel": "e",
+      "title": "19架次 · 80—120分",
+      "drawn_phases": 35,
+      "source_routes": 7
+    },
+    {
+      "panel": "f",
+      "title": "22架次 · 80—120分",
+      "drawn_phases": 29,
+      "source_routes": 5
+    }
+  ]
+}
